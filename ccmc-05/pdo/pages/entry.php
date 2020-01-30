@@ -33,7 +33,7 @@ foreach ($rs as $record){
 		<select name="area">
 			<option value="0">-- 選択してください --</option>
 			<?php foreach ($areas as $area) { ?>
-			<option value="<?=$area->getId</option>
+			<option value="<?=$area->getId () ?>"><?=$area->getName() ?></option>
 			<?php } ?>
 		
 		</select>
